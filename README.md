@@ -1,19 +1,104 @@
-# React + Vite
+# Nike Shoes — E-commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Nike-inspired e-commerce website concept built with React, JavaScript, Tailwind CSS v4, and Vite. This project demonstrates modern frontend development, reusable React components, responsive layouts, and interactive shopping UI.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**[View the live website](https://tailwind-shoes-mu.vercel.app)**
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Responsive Navigation** — Navigation layout adapted for different screen sizes.
+- **Product Showcase** — Product images, descriptions, and pricing.
+- **Product Selection** — Select shoe sizes and quantities.
+- **Shopping Cart UI** — Sidebar interface for viewing selected products.
+- **Dark Mode** — Switch between light and dark themes, with the preference saved in local storage.
+- **Reusable Components** — Modular components for navigation, product details, product cards, and cart UI.
+- **UI Animations** — Transitions and animations for a more engaging user experience.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- JavaScript (ES6+)
+- Tailwind CSS v4
+- Vite
+- React Icons
+- Bun
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+Install [Bun](https://bun.sh/) before running the project.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/elena-bauer-dev/tailwind-shoes.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd tailwind-shoes
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   bun install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   bun run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## Project Structure
+
+```text
+src/
+├── assets/       # Images and SVG assets
+├── components/   # Reusable React components
+├── constant.js   # Product data and selection options
+├── App.jsx       # Main application component
+├── index.css     # Global styles and Tailwind CSS
+└── index.jsx     # Application entry point
+```
+
+## Learning Objectives
+
+This project was created to practise:
+
+- Building reusable UI components with React.
+- Managing component state with React Hooks.
+- Styling interfaces with Tailwind CSS.
+- Creating responsive layouts.
+- Implementing interactive client-side UI elements.
+- Using Vite and Git in a modern frontend development workflow.
+- Deploying a frontend application with Vercel.
+
+## Project Status
+
+This is a personal learning project and a frontend portfolio demonstration. It focuses on the user interface and client-side interactions. It does not currently include a production backend, payment processing, or order management.
+
+## Future Improvements
+
+- Improve product filtering and shopping cart interactions.
+- Expand product detail views.
+- Refine navigation and accessibility.
+- Further improve responsive behavior across devices.
+
+## Author
+
+**Elena Bauer**
+
+Frontend Development learner focused on React, JavaScript, and modern UI development.
+
+- **GitHub:** [elena-bauer-dev](https://github.com/elena-bauer-dev)
+- **LinkedIn:** [Elena Bauer](https://www.linkedin.com/in/elena-bauer-dev/)
